@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf16"
 
-	"github.com/grill66/vuln-fastjson/fastfloat"
+	"github.com/grill66/vulnfastjson/fastfloat"
 )
 
 // Parser parses JSON.

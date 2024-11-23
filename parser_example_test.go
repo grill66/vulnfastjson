@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	fastjson "github.com/grill66/vuln-fastjson"
+	fastjson "github.com/grill66/vulnfastjson"
 )
 
 func ExampleParser_Parse() {

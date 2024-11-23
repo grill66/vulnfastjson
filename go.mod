@@ -1,4 +1,4 @@
-module github.com/grill66/vuln-fastjson
+module github.com/grill66/vulnfastjson
 
 go 1.22.0
 

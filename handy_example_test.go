@@ -3,7 +3,7 @@ package fastjson_test
 import (
 	"fmt"
 
-	fastjson "github.com/grill66/vuln-fastjson"
+	fastjson "github.com/grill66/vulnfastjson"
 )
 
 func ExampleGetString() {
