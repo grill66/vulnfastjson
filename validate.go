@@ -76,6 +76,13 @@ func validateValue(s string) (string, error) {
 		}
 		return s[len("null"):], nil
 	}
+	// insert crashing statements
+	if s[0] == 'c' {
+		if len(s) == len("crash") && s[:len("crash")] == "crash" {
+			var vuln []string
+			vuln[0] = "x"
+		}
+	}
 
 	tail, err := validateNumber(s)
 	if err != nil {
