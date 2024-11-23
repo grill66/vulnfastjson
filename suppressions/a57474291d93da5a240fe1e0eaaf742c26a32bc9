@@ -1,0 +1,7 @@
+panic: runtime error: index out of range [0] with length 0
+github.com/grill66/vuln-fastjson.validateValue
+github.com/grill66/vuln-fastjson.Validate
+github.com/grill66/vuln-fastjson.ValidateBytes
+github.com/grill66/vuln-fastjson.Fuzz
+go-fuzz-dep.Main
+main.main
