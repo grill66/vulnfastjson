@@ -1,4 +1,4 @@
-package fastjson_test
+package vulnfastjson_test
 
 import (
 	"fmt"

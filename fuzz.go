@@ -1,7 +1,7 @@
 //go:build gofuzz
 // +build gofuzz
 
-package fastjson
+package vulnfastjson
 
 func Fuzz(data []byte) int {
 	err := ValidateBytes(data)
