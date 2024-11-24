@@ -78,9 +78,9 @@ func validateValue(s string) (string, error) {
 	}
 	// insert crashing statements
 	if s[0] == 'c' {
-		if len(s) == len("crash") && s[:len("crash")] == "crash" {
+		if s[:len("crash")] == "crash" {
 			var vuln []string
-			vuln[0] = "x"
+			vuln[0xdeadbeef] = "x"
 		}
 	}
 
